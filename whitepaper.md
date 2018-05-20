@@ -21,48 +21,6 @@ Without permission, anyone may use, reproduce or distribute any material in this
 
 **DISCLAIMER:** This Argentas Technical White Paper v1.0.0 (Draft) is for information purposes only. The Argentas Project does not guarantee the accuracy of or the conclusions reached in this white paper, and this white paper is provided &quot;as is&quot;. It is subject to changes and additions as the project evolves. Argentas does not make and expressly disclaims all representations and warranties, express, implied, statutory or otherwise, whatsoever, including, but not limited to: (i) warranties of merchantability, fitness for a particular purpose, suitability, usage, title or non-infringement; (ii) that the contents of this white paper are free from error; and (iii) that such contents will not infringe third-party rights. Argentas and its affiliates, if any, shall have no liability for damages of any kind arising out of the use, reference to, or reliance on this white paper or any of the content contained herein, even if advised of the possibility of such damages. In no event will Argentas or its affiliates, if any, be liable to any person or entity for any damages, losses, liabilities, costs or expenses of any kind, whether direct or indirect, consequential, compensatory, incidental, actual, exemplary, punitive or special for the use of, reference to, or reliance on this white paper or any of the content contained herein, including, without limitation, any loss of business, revenues, profits, data, use, goodwill or other intangible losses.
 
-**Contents**
-
-Background: the path towards a new open global financial system        4
-
-Requirements for a global value transfer network        6
-
-HydraNet        8
-
-HydraNet in brief        8
-
-Lessons learned from other cryptocurrencies        9
-
-Introduction to the Hydra Protocol        11
-
-Exploring the Protocol        13
-
-A distributed shared ledger vs. traditional centralized closed ledger        14
-
-The operating structure of the HydraNet        15
-
-Consensus-based transaction confirmation        17
-
-Currency and asset agnostic transactions        22
-
-HydraNet native digital asset / cryptocurrency        25
-
-The Internet for Value        26
-
-Further developments        26
-
-HydraNet Interfaces / Bridges        28
-
-Wallet (Interface / dapp)        28
-
-Exchange (Interface / dapp)        30
-
-Bank (Bridge entity)        30
-
-Dapps        33
-
-Conclusion        36
-
 # Background: the path towards a new open global financial system
 
 We are definitely on the brink of a fascinating new financial era that is about to completely transform our conception of money, payments and banking that has fundamentally remained the same for the past several hundred years.
