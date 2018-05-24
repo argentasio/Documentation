@@ -297,7 +297,7 @@ In an asynchronous, system (where no assumptions are made about time) of determi
 
 It is critical to be able to manage or &quot;tolerate&quot; and manage the above-mentioned potential causes of failures in the consensus-seeking confirmation process, or otherwise the whole system may get jammed. It is important to be able to ensure consensus can be reached even when individual nodes act arbitrarily, which is a behavior generally known as Byzantine failure – otherwise the whole blockchain could end up being jammed in an endless indeterminate state. _To be able to tolerate Byzantine failure, contrary to certain other fault-prone blockchains, HP will not require unanimous consent from the complete set of nodes for the system to reach agreement, but to tolerate nodes that lie or send incorrect messages as well._
 
-#### Decision tranches
+### Decision tranches
 
 This version of the Byzantine agreement will include the concept of a _decision tranche_, the subset of a quorum that can convince one particular network node of agreement, just like a person, or a few persons of a certain view in a meeting can be convinced of a decision.
 
@@ -460,15 +460,15 @@ HydraNet will also be an introduction for mainstream end users to blockchain and
 
 1. Send and request cryptocurrencies
 
-Send the native and other cryptocurrencies to friends or shop with merchants who accept such cryptocurrencies.
+    Send the native and other cryptocurrencies to friends or shop with merchants who accept such cryptocurrencies.
 
-1. Securely access all user&#39;s accounts
+2. Securely access all user&#39;s accounts
 
-Access all of the user&#39;s Hydra wallets, vaults and transaction details on the go - securely.
+    Access all of the user&#39;s Hydra wallets, vaults and transaction details on the go - securely.
 
-1. Buy and sell cryptocurrencies
+3. Buy and sell cryptocurrencies
 
-Buy and sell native and other cryptocurrencies or digital assets directly from the user&#39;s phone by connecting his/her account with HydraNet or elsewhere.
+    Buy and sell native and other cryptocurrencies or digital assets directly from the user&#39;s phone by connecting his/her account with HydraNet or elsewhere.
 
 ### Some technical features
 
