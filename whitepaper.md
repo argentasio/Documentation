@@ -320,7 +320,7 @@ The first step is the proposing step. In the beginning of the proposing step, th
 
 The prevote, the first round of voting is preliminary and only happens at the node level. In the beginning of the prevoting step each validator makes a decision. However, in this first step of the voting process, the first node votes to remain open to the possibility of accepting another proposed value for the transaction by asserting that the proposed transaction is valid and promising the node has never and will never individually vote for any option contradicting this proposed transaction value. This node may, however, end up accepting something other than the proposed transaction value if enough of nodes in the decision tranche vote otherwise. During the prevote step, all nodes gossip all prevotes for the round to their neighboring peers.
 
-#### 3. Transaction acceptance
+#### 3. Precommit
 
 Due to the quorum intersection, decision tranches influence one another. Consider an alternate path, in which the first nodeinitially votes for another transaction value. It should be noted these votes are only preliminary.
 
@@ -328,13 +328,13 @@ If the second, third and fourth nodes are in decision tranches with the first no
 
 The first node will actually precommit to the first proposed transaction value if (1) it has never accepted a statement contradicting the first proposed value (any other alternative values), and (2) each member of a v-blocking set claims to precommit to the first proposed transaction value, or each member node of a quorum including the first node either votes for or claims to precommit to the first proposed value.
 
-#### 4. Ratification
+#### 4. Ratify
 
 When every member node of a quorum votes for the first proposed value, the quorum ratifies the first proposed transaction value and precommits to it. A node will not need to ratify a statement firsthand. However, a nodeoften relies on a few others to decide what to accept. This means they are its quorum. If they all vote for the first proposed transaction value, the quorum has ratified this value.
 
 A node can vote for one proposed value and later accept a contradictory one. Voting for the first proposed transaction value does not assert it to be the choice — this value will be accepted as the choice only if it is ratified.
 
-#### 5. Confirmation messaging
+#### 5. Confirmation messages
 
 Confirmation will be the final step of the voting process and implies system-wide agreement. To ensure agreement, nodes will exchange confirmation messages. A system agrees on a statement if, once sufficient messages are delivered and processed, and no matter what events subsequently transpire, every responsive, accurate node will accept the statement.
 
