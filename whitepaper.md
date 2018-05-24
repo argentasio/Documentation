@@ -235,7 +235,9 @@ In contrast to the existing payment systems following the old, bureaucratic Mond
 
 ## Consensus-based transaction confirmation
 
-### Consensus-driven transaction validation enabling virtually real-time settlement
+A consensus-based protocol ensures that every transaction is replicated and recorded in all the machines in the network in the same order. The scheme for state replication in this context is implemented in the blockchain paradigm, where the blockchain is the resultant hash-linked batched log of transactions replicated deterministically across all processes in the network.
+
+### Enabling virtually real-time settlement
 
 Hydra Protocol (HP) will be a model that is suitable for worldwide consensus. _The Hydra network will be a shared public ledger administered collectively by a network of servers._ The ledger will maintains and updates the accounts and balances of Hydra users - the HydraNet servers will communicate with each other to verify transactions and synchronize the ledger every few seconds. Transactions on the HydraNet will be authorized and settled through a process called _consensus_.
 
